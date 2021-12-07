@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "altaCliente",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					}
+				],
+				"name": "consultarDinero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dinero",
+						"type": "uint256"
+					}
+				],
+				"name": "ingresarDinero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_dinero",
+						"type": "uint256"
+					}
+				],
+				"name": "retirarDinero",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"intereactuar con varios Smart Contracts/Cliente.sol": "Cliente"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"intereactuar con varios Smart Contracts/Banco.sol": {
+			"keccak256": "0x8feda0ee2826eabff52e055060475e7ca9cf345701ec50ab1c1738c97eaae352",
+			"urls": [
+				"bzz-raw://01c3da0afa1f6c942844a819da1a15015eb82465051d4aaef8f5595227cebbcb",
+				"dweb:/ipfs/Qmc37VuyqnJUGDEnMdHymNpVy7rvU8wfNMHedYGyBNoitY"
+			]
+		},
+		"intereactuar con varios Smart Contracts/Cliente.sol": {
+			"keccak256": "0x898ce3b27f705ed659299dc268a52ba0128ef361d9eb339470e4e9a7589e8f57",
+			"urls": [
+				"bzz-raw://96e6a2525faa5e3466ffb63e6f56ebacd67b8be16a3a5a83f129e3e43e64aa02",
+				"dweb:/ipfs/QmZtL6B1t5y9eAws8ETvKAeLDanawQYoRuHp18avEZh8kb"
+			]
+		}
+	},
+	"version": 1
+}

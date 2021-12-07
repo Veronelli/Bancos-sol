@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_j",
+						"type": "uint256"
+					}
+				],
+				"name": "divicion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_j",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplicacion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"intereactuar con varios Smart Contracts/Librerias.sol": "Operaciones"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"intereactuar con varios Smart Contracts/Librerias.sol": {
+			"keccak256": "0x147eca8a07e72b306b0908a481408b6755d7ab82e26d07973a07658291d4c1f0",
+			"urls": [
+				"bzz-raw://23afa25d7edf156be131cd63d4fc17280a12b8c70933539a24ce140540806296",
+				"dweb:/ipfs/QmPk7MHa62uPtr4DVhjYLbRnro5ssq7mxSbH8aMe98FEHU"
+			]
+		}
+	},
+	"version": 1
+}
